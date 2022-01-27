@@ -46,16 +46,7 @@ public final class UltiTools extends JavaPlugin {
     public static DatabaseUtils databaseUtils;
     private static boolean isUltiCoreUpToDate;
     private ProChecker proChecker;
-    private static final String banner = "\n" +
-            "§b§n==================================================§f\n" +
-            "§b§l   __  __ __ __   _  ______               __     §f\n" +
-            "§b§l  / / / // // /_ (_)/_  __/____   ____   / /_____§f\n" +
-            "§b§l / / / // // __// /  / /  / __ \\ / __ \\ / // ___/§f\n" +
-            "§b§l/ /_/ // // /_ / /  / /  / /_/ // /_/ // /(__  ) §f\n" +
-            "§b§l\\____//_/ \\__//_/  /_/   \\____/ \\____//_//____/  §f\n" +
-            "§f                                                 §f\n" +
-            "§b§n==================================================§f\n";
-
+    private static final String banner ="§b§n星阁浅语专版§f\n";
     @Override
     public void onEnable() {
         plugin = this;

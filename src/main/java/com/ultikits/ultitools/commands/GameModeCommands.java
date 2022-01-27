@@ -16,18 +16,24 @@ public class GameModeCommands extends AbstractPlayerCommandExecutor {
         if (player.hasPermission("ultikits.tools.command.gm")) {
             switch (strings[0]) {
                 case "0":
+                case "s":
+                case "survival":
                     player.setGameMode(GameMode.SURVIVAL);
                     player.sendMessage(ChatColor.YELLOW + String.format(UltiTools.languageUtils.getString("gamemode_changed"), UltiTools.languageUtils.getString("gamemode_0")));
                     return true;
                 case "1":
+                case "c":
+                case "creative":
                     player.setGameMode(GameMode.CREATIVE);
                     player.sendMessage(ChatColor.YELLOW + String.format(UltiTools.languageUtils.getString("gamemode_changed"), UltiTools.languageUtils.getString("gamemode_1")));
                     return true;
                 case "2":
+                case "adventure":
                     player.setGameMode(GameMode.ADVENTURE);
                     player.sendMessage(ChatColor.YELLOW + String.format(UltiTools.languageUtils.getString("gamemode_changed"), UltiTools.languageUtils.getString("gamemode_2")));
                     return true;
                 case "3":
+                case "spectator":
                     player.setGameMode(GameMode.SPECTATOR);
                     player.sendMessage(ChatColor.YELLOW + String.format(UltiTools.languageUtils.getString("gamemode_changed"), UltiTools.languageUtils.getString("gamemode_3")));
                     return true;
